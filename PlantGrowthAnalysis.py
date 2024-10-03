@@ -1,6 +1,7 @@
 # performing analysis on plant growth 
 growth = [3, 1, 2, 4, 2, 3, 2] # growth variable and stored values
 growth.sort() # sort to sort the list from asscending order
+## print(growth) to test if the order is sorted from smallest to largest
 smallest_growth = growth[0] # set the first element of the sorted list as its value.
 print(f'The smallest growth in the week is: {smallest_growth}cm') # printing the smallest growth
 biggest_growth = growth[len(growth) - 1] # creating biggest growth and getting the length of a list 
