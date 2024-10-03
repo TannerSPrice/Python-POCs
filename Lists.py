@@ -38,5 +38,5 @@ print(second_fruits) # prints list where blueberry is removed
 #print(len(second_fruits))
 
 # joining lists of fruits and second_fruits
-#joined_fruits = fruits + second_fruits
-#print(joined_fruits)
+joined_fruits = fruits + second_fruits ## joining all fruits
+print(joined_fruits) ## testing the joined fruits
